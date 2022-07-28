@@ -1,0 +1,23 @@
+.carousel-caption {
+    /* position: relative;
+    right: 15%;
+    bottom: 35%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem; */
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width:500px) {
+    .carousel-caption {
+       font-size: smaller;}
+
+    
+       .carousel-h1{
+        font-size: 20px;
+       }
+       .carousel-p{
+        font-size: 10px;
+       }
+}
