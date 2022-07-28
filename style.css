@@ -1,13 +1,70 @@
 .carousel-caption {
-    /* position: relative;
-    right: 15%;
-    bottom: 35%;
-    left: 15%;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem; */
     color: white;
     text-align: center;
 }
+
+.middle-text{
+    margin-top: 150px;
+    text-align: center;
+    width:60%;
+    margin-bottom: 200px;
+}
+
+.dark-bg{
+    opacity: 0.45;
+    background-color: black;
+}
+
+.price{
+    color: #289BDE;
+    font-size: 18px;
+    font-weight: 800px;
+}
+
+.mid-box{
+    font-size: 45px;
+    font-weight: 800;
+    margin-right: 40px;
+}
+
+.small{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ready-box{
+    height: 300px;
+    color: white;
+    padding-left: 20px;
+    text-align: center;
+}
+.ready{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ready-now{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:500px) {
     .carousel-caption {
